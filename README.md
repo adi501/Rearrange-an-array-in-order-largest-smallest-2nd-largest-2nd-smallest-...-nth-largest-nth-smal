@@ -44,7 +44,6 @@ Solution in C#.net
 
 
 using System;
-
 using System.Linq;
 
 namespace ConsoleApp4
@@ -70,6 +69,7 @@ namespace ConsoleApp4
                     }
                 }
             }
+
             if (duplicate == false)
             {
                 Array.Sort(input1);
@@ -99,10 +99,10 @@ namespace ConsoleApp4
             {
                 Console.WriteLine("Invalid Input");
             }
+
         }
     }
 }
-
 
 
 
